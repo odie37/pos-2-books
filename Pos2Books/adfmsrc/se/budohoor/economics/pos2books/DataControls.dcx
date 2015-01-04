@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DataControlConfigs xmlns="http://xmlns.oracle.com/adfm/configuration" version="11.1.2.62.76" id="DataControls"
+                    Package="se.budohoor.economics.pos2books">
+  <AdapterDataControl id="TxList" FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.adf.model.adapter.bean.BeanDCDefinition" SupportsTransactions="false"
+                      SupportsSortCollection="true" SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="true"
+                      Definition="se.budohoor.economics.pos2books.model.TxList"
+                      BeanClass="se.budohoor.economics.pos2books.model.TxList"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <CreatableTypes>
+      <TypeInfo FullName="se.budohoor.economics.pos2books.model.TxList"/>
+    </CreatableTypes>
+    <Source>
+      <bean-definition BeanClass="se.budohoor.economics.pos2books.model.TxList"
+                       xmlns="http://xmlns.oracle.com/adfm/adapter/bean"/>
+    </Source>
+  </AdapterDataControl>
+  <AdapterDataControl id="TxCashSale" FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.adf.model.adapter.bean.BeanDCDefinition" SupportsTransactions="false"
+                      SupportsSortCollection="true" SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="true"
+                      Definition="se.budohoor.economics.pos2books.model.TxCashSale"
+                      BeanClass="se.budohoor.economics.pos2books.model.TxCashSale"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <CreatableTypes>
+      <TypeInfo FullName="se.budohoor.economics.pos2books.model.BookEntry"/>
+    </CreatableTypes>
+    <Source>
+      <bean-definition BeanClass="se.budohoor.economics.pos2books.model.TxCashSale"
+                       xmlns="http://xmlns.oracle.com/adfm/adapter/bean"/>
+    </Source>
+  </AdapterDataControl>
+  <AdapterDataControl id="BookEntry" FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.adf.model.adapter.bean.BeanDCDefinition" SupportsTransactions="false"
+                      SupportsSortCollection="true" SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="true"
+                      Definition="se.budohoor.economics.pos2books.model.BookEntry"
+                      BeanClass="se.budohoor.economics.pos2books.model.BookEntry"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <CreatableTypes>
+      <TypeInfo FullName="se.budohoor.economics.pos2books.model.BookEntry"/>
+    </CreatableTypes>
+    <Source>
+      <bean-definition BeanClass="se.budohoor.economics.pos2books.model.BookEntry"
+                       xmlns="http://xmlns.oracle.com/adfm/adapter/bean"/>
+    </Source>
+  </AdapterDataControl>
+  <AdapterDataControl id="CashBookEntry" FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.adf.model.adapter.bean.BeanDCDefinition" SupportsTransactions="false"
+                      SupportsSortCollection="true" SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="true"
+                      Definition="se.budohoor.economics.pos2books.model.CashBookEntry"
+                      BeanClass="se.budohoor.economics.pos2books.model.CashBookEntry"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <CreatableTypes>
+      <TypeInfo FullName="se.budohoor.economics.pos2books.model.CashBookEntry"/>
+    </CreatableTypes>
+    <Source>
+      <bean-definition BeanClass="se.budohoor.economics.pos2books.model.CashBookEntry"
+                       xmlns="http://xmlns.oracle.com/adfm/adapter/bean"/>
+    </Source>
+  </AdapterDataControl>
+  <AdapterDataControl id="TxExpense" FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.adf.model.adapter.bean.BeanDCDefinition" SupportsTransactions="false"
+                      SupportsSortCollection="true" SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="true"
+                      Definition="se.budohoor.economics.pos2books.model.TxExpense"
+                      BeanClass="se.budohoor.economics.pos2books.model.TxExpense"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <CreatableTypes>
+      <TypeInfo FullName="se.budohoor.economics.pos2books.model.BookEntry"/>
+    </CreatableTypes>
+    <Source>
+      <bean-definition BeanClass="se.budohoor.economics.pos2books.model.TxExpense"
+                       xmlns="http://xmlns.oracle.com/adfm/adapter/bean"/>
+    </Source>
+  </AdapterDataControl>
+  <AdapterDataControl id="Pos" FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.adf.model.adapter.bean.BeanDCDefinition" SupportsTransactions="false"
+                      SupportsSortCollection="true" SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="true"
+                      Definition="se.budohoor.economics.pos2books.model.Pos"
+                      BeanClass="se.budohoor.economics.pos2books.model.Pos"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <CreatableTypes>
+      <TypeInfo FullName="se.budohoor.economics.pos2books.model.TxList"/>
+    </CreatableTypes>
+    <Source>
+      <bean-definition BeanClass="se.budohoor.economics.pos2books.model.Pos"
+                       xmlns="http://xmlns.oracle.com/adfm/adapter/bean"/>
+    </Source>
+  </AdapterDataControl>
+  <AdapterDataControl id="Books" FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.adf.model.adapter.bean.BeanDCDefinition" SupportsTransactions="false"
+                      SupportsSortCollection="true" SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="true"
+                      Definition="se.budohoor.economics.pos2books.model.Books"
+                      BeanClass="se.budohoor.economics.pos2books.model.Books"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <Source>
+      <bean-definition BeanClass="se.budohoor.economics.pos2books.model.Books"
+                       xmlns="http://xmlns.oracle.com/adfm/adapter/bean"/>
+    </Source>
+  </AdapterDataControl>
+</DataControlConfigs>

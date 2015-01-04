@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProviderSettings xmlns="http://xmlns.oracle.com/ide/hash">
+   <hash n="dataTypeSettings">
+      <value n="sourceKey" v="oracle.javatools.db.sqlite.SQLiteDatabaseImpl"/>
+   </hash>
+   <value n="id" v="14b509c4-ac64-4244-a99f-4ffac903794b"/>
+   <value n="name" v="SettingsDB"/>
+</ProviderSettings>

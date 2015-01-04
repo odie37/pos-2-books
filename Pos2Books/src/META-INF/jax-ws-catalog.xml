@@ -1,0 +1,4 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="https://api.e-conomic.com/secure/api1/EconomicWebService.asmx/#%7Bhttp%3A%2F%2Fe-conomic.com%7DEconomicWebService?wsdl"
+          uri="../../EconomicWebService.wsdl"/>
+</catalog>

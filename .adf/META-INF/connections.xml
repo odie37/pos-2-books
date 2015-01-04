@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<References xmlns="http://xmlns.oracle.com/adf/jndi">
+   <Reference name="SettingsDB" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+      <Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+      <RefAddresses>
+         <StringRefAddr addrType="subtype">
+            <Contents>thirdParty</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="user">
+            <Contents/>
+         </StringRefAddr>
+         <StringRefAddr addrType="driver">
+            <Contents>org.sqlite.JDBC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="customUrl">
+            <Contents>jdbc:sqlite:/home/budohoor/jdeveloper/mywork/Pos2BooksApp/Pos2Books/settings.db</Contents>
+         </StringRefAddr>
+      </RefAddresses>
+   </Reference>
+   <Reference name="RingItUpDB" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+      <Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+      <RefAddresses>
+         <StringRefAddr addrType="subtype">
+            <Contents>thirdParty</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="user">
+            <Contents/>
+         </StringRefAddr>
+         <StringRefAddr addrType="driver">
+            <Contents>org.sqlite.JDBC</Contents>
+         </StringRefAddr>
+         <StringRefAddr addrType="customUrl">
+            <Contents>jdbc:sqlite:/home/budohoor/jdeveloper/mywork/Pos2BooksApp/Pos2Books/ringitup.sql</Contents>
+         </StringRefAddr>
+      </RefAddresses>
+   </Reference>
+</References>
